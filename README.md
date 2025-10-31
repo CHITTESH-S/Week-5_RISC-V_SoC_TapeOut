@@ -596,37 +596,6 @@ By completing this week, you should have:
 
 ---
 
-## 🙏 Acknowledgments
-
-I sincerely thank all the organizations and their key members for making this program possible:
-
-- 🧑‍🏫 **VLSI System Design (VSD)** – [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) for mentorship and vision
-- 🤝 **Efabless** – [Michael Wishart](https://www.linkedin.com/in/mike-wishart-81480612/) & [Mohamed Kassem](https://www.linkedin.com/in/mkkassem/) for enabling collaborative open-source chip design
-- 🏭 **Semiconductor Laboratory (SCL)** – for PDK & foundry support
-- 🎓 **IIT Gandhinagar (IITGN)** – for on-site training & project facilitation
-- 🛠️ **Synopsys** – [Sassine Ghazi](https://www.linkedin.com/in/sassine-ghazi/) for providing industry-grade EDA tools under C2S program
-
----
-
-## 📚 Additional Resources
-
-### 🔗 Important Links:
-
-- 📖 [OpenROAD Documentation](https://openroad.readthedocs.io/)
-- 🐙 [OpenROAD GitHub Repository](https://github.com/The-OpenROAD-Project/OpenROAD)
-- 🌐 [OpenROAD Flow Scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)
-- 📘 [Sky130 PDK Documentation](https://skywater-pdk.readthedocs.io/)
-- 🎓 [VSD Website](https://www.vlsisystemdesign.com/)
-
-### 📖 Recommended Reading:
-
-- OpenROAD User Guide
-- Floorplanning Best Practices
-- Standard Cell Placement Optimization
-- Physical Design Flow Overview
-
----
-
 ## 💡 Final Thoughts
 
 > **"Week 5 was the bridge between design theory and physical implementation — setting up OpenROAD from scratch, debugging builds, and finally witnessing the open-source flow automate the complete SoC layout journey."** 🚀
@@ -658,6 +627,25 @@ This week successfully demonstrated:
 - 🏭 [**Semiconductor Laboratory (SCL)**](https://www.scl.gov.in/) – for PDK & foundry support.
 - 🎓 [**IIT Gandhinagar (IITGN)**](https://www.linkedin.com/school/indian-institute-of-technology-gandhinagar-iitgn-/?originalSubdomain=in) – for on-site training & project facilitation.
 - 🛠️ **Synopsys** – [Sassine Ghazi](https://www.linkedin.com/in/sassine-ghazi/) for providing industry-grade EDA tools under C2S program.
+
+---
+
+## 📚 Additional Resources
+
+### 🔗 Important Links:
+
+- 📖 [OpenROAD Documentation](https://openroad.readthedocs.io/)
+- 🐙 [OpenROAD GitHub Repository](https://github.com/The-OpenROAD-Project/OpenROAD)
+- 🌐 [OpenROAD Flow Scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)
+- 📘 [Sky130 PDK Documentation](https://skywater-pdk.readthedocs.io/)
+- 🎓 [VSD Website](https://www.vlsisystemdesign.com/)
+
+### 📖 Recommended Reading:
+
+- OpenROAD User Guide
+- Floorplanning Best Practices
+- Standard Cell Placement Optimization
+- Physical Design Flow Overview
 
 ---
 
