@@ -54,8 +54,19 @@ OpenROAD automates all backend stages of VLSI physical design, including:
 git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 cd OpenROAD-flow-scripts/
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="cloning" src="https://github.com/user-attachments/assets/f33c01a7-7405-41e1-a985-c181c75f03ad" />
+
+</div>
 
 > 📌 **Note:** The `--recursive` flag ensures all submodules are initialized properly.
+
+<div align="center">
+
+<img width="1024" height="1024" alt="listing" src="https://github.com/user-attachments/assets/8dc70097-a763-4303-ab40-a38e2afba3df" />
+
+</div>
 
 ---
 
@@ -64,6 +75,29 @@ cd OpenROAD-flow-scripts/
 ```bash
 sudo ./setup.sh
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="setup1" src="https://github.com/user-attachments/assets/d82ac23d-541d-4546-a54c-69d1ff72cb4e" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="setup2" src="https://github.com/user-attachments/assets/3f2c2d9e-9d91-40b1-8c1e-b3d60adc35ee" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="setup3" src="https://github.com/user-attachments/assets/03c55815-090d-492a-9241-3cd58988e236" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="setup4" src="https://github.com/user-attachments/assets/48570f17-78d8-47b4-b14b-fd5628b9c27f" />
+
+</div>
 
 This installs all necessary dependencies and prepares the environment for compilation, including:
 
@@ -80,6 +114,11 @@ This installs all necessary dependencies and prepares the environment for compil
 ```bash
 ./build_openroad.sh --local
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="build1" src="https://github.com/user-attachments/assets/44c64db2-32d2-4a31-b856-e1404044ab4c" />
+
+</div>
 
 This command compiles OpenROAD from source and installs the required flow binaries locally.
 
@@ -269,6 +308,11 @@ set(CMAKE_C_FLAGS_RELEASEWITHASSERTS "${CMAKE_C_FLAGS_RELEASE} -UNDEBUG" CACHE S
 cd ~/OpenROAD-flow-scripts
 ./build_openroad.sh --local
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="build2" src="https://github.com/user-attachments/assets/3ae99b68-c161-43c7-9f98-85d48b0f04f7" />
+
+</div>
 
 ### ✅ What This Fix Achieves:
 
@@ -306,6 +350,17 @@ source ./env.sh
 yosys -help
 openroad -help
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="env_help" src="https://github.com/user-attachments/assets/c9802d4e-da6e-4553-8f4d-259a74fcd6a3" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="openroad" src="https://github.com/user-attachments/assets/59c9b13f-8fa2-476a-96da-6c053d0a5925" />
+
+</div>
 
 **Expected Output:**  
 Both `yosys` and `openroad` should respond successfully with their help documentation — this confirms a valid installation.
@@ -326,6 +381,17 @@ You can also check the version:
 cd flow/
 make
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="make1" src="https://github.com/user-attachments/assets/bdaa7b70-e659-4cca-9726-14917fce8bc7" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="make2" src="https://github.com/user-attachments/assets/8a5e89af-f815-48de-85b4-098388ce17dc" />
+
+</div>
 
 This runs the flow using built-in example designs (such as `gcd` with the Nangate45 PDK).
 
@@ -342,6 +408,29 @@ This runs the flow using built-in example designs (such as `gcd` with the Nangat
 ```bash
 make gui_final
 ```
+<div align="center">
+
+<img width="1024" height="1024" alt="gui_final" src="https://github.com/user-attachments/assets/172100b3-464a-4871-be90-5ce3fd2b0237" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="gui_setup" src="https://github.com/user-attachments/assets/d722272d-edf6-4817-a664-59c111453d29" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="gui_hold" src="https://github.com/user-attachments/assets/4a5ee16d-6711-4056-9757-267c2583a220" />
+
+</div>
+
+<div align="center">
+
+<img width="1024" height="1024" alt="gui_chart" src="https://github.com/user-attachments/assets/32b06059-7a1c-4695-a7ff-bac167e993e8" />
+
+</div>
 
 This opens the **OpenROAD GUI** showing the final placement and floorplan visualization.
 
